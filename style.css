@@ -1,0 +1,30 @@
+body {
+    background: #111;
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas {
+    background: #000;
+    display: block;
+    cursor: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    canvas {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* Styles for screens 768px or larger */
+    canvas {
+      width: 100%;
+      max-width: 1280px;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  
